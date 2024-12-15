@@ -47,7 +47,10 @@ input,
 button {
   outline: none;
 }
-button {
+.btn-delete,
+.btn-edit,
+.btn-save,
+.btn-add {
   background: none;
   border: 0px;
   color: #888;
@@ -122,12 +125,12 @@ li > label {
 li > input[type="text"] {
   width: 226px
 }
-button.delete img {
+.btn-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.btn-delete img:hover {
   transform: rotateZ(0);
 }
 
